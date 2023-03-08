@@ -131,10 +131,10 @@
                         <bundleVersion>${bundle.version}</bundleVersion>
                         <!-- for Android -->
                         <versionCode>${version.code}</versionCode>
-                        <providedKeyStorePath>${provided.keystore.path}</providedKeyStorePath>
-                        <providedKeyStorePassword>${provided.keystore.password}</providedKeyStorePassword>
-                        <providedKeyAlias>${provided.key.alias}</providedKeyAlias>
-                        <providedKeyAliasPassword>${provided.key.alias.password}</providedKeyAliasPassword>
+<!--                        <providedKeyStorePath>${provided.keystore.path}</providedKeyStorePath>-->
+<!--                        <providedKeyStorePassword>${provided.keystore.password}</providedKeyStorePassword>-->
+<!--                        <providedKeyAlias>${provided.key.alias}</providedKeyAlias>-->
+<!--                        <providedKeyAliasPassword>${provided.key.alias.password}</providedKeyAliasPassword>-->
                     </releaseConfiguration>
                 </configuration>
             </plugin>
@@ -157,10 +157,10 @@
                 <gluonfx.target>android</gluonfx.target>
                 <app.identifier>com.gluonhq.samples.hellogluon</app.identifier>
                 <version.code>${env.GITHUB_RUN_NUMBER}</version.code>
-                <provided.keystore.path>${env.GLUON_ANDROID_KEYSTOREPATH}</provided.keystore.path>
-                <provided.keystore.password>${env.GLUON_ANDROID_KEYSTORE_PASSWORD}</provided.keystore.password>
-                <provided.key.alias>${env.GLUON_ANDROID_KEYALIAS}</provided.key.alias>
-                <provided.key.alias.password>${env.GLUON_ANDROID_KEYALIAS_PASSWORD}</provided.key.alias.password>
+<!--                <provided.keystore.path>${env.GLUON_ANDROID_KEYSTOREPATH}</provided.keystore.path>-->
+<!--                <provided.keystore.password>${env.GLUON_ANDROID_KEYSTORE_PASSWORD}</provided.keystore.password>-->
+<!--                <provided.key.alias>${env.GLUON_ANDROID_KEYALIAS}</provided.key.alias>-->
+<!--                <provided.key.alias.password>${env.GLUON_ANDROID_KEYALIAS_PASSWORD}</provided.key.alias.password>-->
             </properties>
         </profile>
     </profiles>
