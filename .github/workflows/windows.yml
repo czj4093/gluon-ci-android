@@ -30,7 +30,7 @@ jobs:
           gluon-license: ${{ secrets.GLUON_LICENSE }}
 
       - name: Gluon Build and Package
-        run: mvn -Pdesktop gluonfx:build -X gluonfx:package
+        run: mvn -Pdesktop gluonfx:build -e gluonfx:package
 
       - name: Copy native bundles to staging
         run: |
