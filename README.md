@@ -106,10 +106,3 @@ Depending on your own preference and requirements, this can of course be changed
 
 * Workflow file: [.github/workflows/android.yml](https://github.com/gluonhq/hello-gluon-ci/blob/master/.github/workflows/android.yml)
 * Detailed documentation: [Gluon documentation for Android](https://docs.gluonhq.com/#platforms_android) for more detailed information.
-
-### Embedded - AArch64 Linux
-
-[![AArch64 Linux](https://github.com/gluonhq/hello-gluon-ci/actions/workflows/aarch64-linux.yml/badge.svg)](https://github.com/gluonhq/hello-gluon-ci/actions/workflows/aarch64-linux.yml)
-
-* Workflow file: [.github/workflows/aarch64-linux.yml](https://github.com/gluonhq/hello-gluon-ci/blob/master/.github/workflows/aarch64-linux.yml)
-* Detailed documentation: [Gluon documentation for Embedded - AArch64 Linux](https://docs.gluonhq.com/#platforms_embedded) for more detailed information.
