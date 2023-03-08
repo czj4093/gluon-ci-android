@@ -14,6 +14,7 @@ jobs:
         uses: gluonhq/setup-graalvm@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_RUN_NUMBER: 1.0.0
 
       - name: Install libraries
         run: |
