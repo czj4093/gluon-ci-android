@@ -79,27 +79,6 @@ Depending on your own preference and requirements, this can of course be changed
 * Workflow file: [.github/workflows/windows.yml](https://github.com/gluonhq/hello-gluon-ci/blob/master/.github/workflows/windows.yml)
 * Detailed documentation: [Gluon documentation for Windows](https://docs.gluonhq.com/#platforms_windows) for more detailed information.
 
-### MacOS
-
-[![MacOS](https://github.com/gluonhq/hello-gluon-ci/actions/workflows/macos.yml/badge.svg)](https://github.com/gluonhq/hello-gluon-ci/actions/workflows/macos.yml)
-
-* Workflow file: [.github/workflows/macos.yml](https://github.com/gluonhq/hello-gluon-ci/blob/master/.github/workflows/macos.yml)
-* Detailed documentation: [Gluon documentation for Mac OS](https://docs.gluonhq.com/#platforms_macos) for more detailed information.
-
-### Linux
-
-[![Linux](https://github.com/gluonhq/hello-gluon-ci/actions/workflows/linux.yml/badge.svg)](https://github.com/gluonhq/hello-gluon-ci/actions/workflows/linux.yml)
-
-* Workflow file: [.github/workflows/linux.yml](https://github.com/gluonhq/hello-gluon-ci/blob/master/.github/workflows/linux.yml)
-* Detailed documentation: [Gluon documentation for Linux](https://docs.gluonhq.com/#platforms_linux) for more detailed information.
-
-### iOS
-
-[![iOS](https://github.com/gluonhq/hello-gluon-ci/actions/workflows/ios.yml/badge.svg)](https://github.com/gluonhq/hello-gluon-ci/actions/workflows/ios.yml)
-
-* Workflow file: [.github/workflows/ios.yml](https://github.com/gluonhq/hello-gluon-ci/blob/master/.github/workflows/ios.yml)
-* Detailed documentation: [Gluon documentation for iOS](https://docs.gluonhq.com/#platforms_ios) for more detailed information.
-
 ### Android
 
 [![Android](https://github.com/gluonhq/hello-gluon-ci/actions/workflows/android.yml/badge.svg)](https://github.com/gluonhq/hello-gluon-ci/actions/workflows/android.yml)
